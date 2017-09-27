@@ -1,1 +1,5 @@
 
+ai_difficulty = "normal"
+use_fort_defense_system = yes
+extra_hp_becomes_fort_defense = yes
+maximum_players = 4
