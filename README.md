@@ -1,2 +1,2 @@
 # CastlesAndCards
-Here be our card game.
+The cards to win wars.
