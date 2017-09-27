@@ -1,1 +1,21 @@
 #TODO: WORK ON THIS FILE
+
+#This is a comment
+#All possible fields are displayed in this example.
+#You can choose to exclude any field except the "on_burn" block.
+#on_burn fields are, as always, optional.
+attack_card = { 
+    name = "Great Storm" 
+    desc = "This be a great storm. Good for you, bad for your opponents."
+    min_mana_cost = 68
+    max_mana_cost = 150
+    on_burn = { //The target is always the enemy player you use the card on.
+        mana_change = -25
+        castle_hp = -25
+        add_modifier = {
+            name = "The Aftermath"
+            mana_change = -5 #reapplied at the beginning of every turn.
+            duration = 5 #The modifier will last 5 turns. If you want an infinite modifier, set this value to "-1"
+        }
+    }   
+}
