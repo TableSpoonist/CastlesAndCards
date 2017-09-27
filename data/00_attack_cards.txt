@@ -6,10 +6,10 @@
 #on_burn fields are, as always, optional.
 attack_card = { 
     name = "Great Storm" 
-    desc = "This be a great storm. Good for you, bad for your opponents."
-    min_mana_cost = 68
-    max_mana_cost = 150
+    desc = "A horrendous thunderstorm. Sure to do a bit of damage."
+    mana_cost = 5
     on_burn = { #The target is always the enemy player you use the card on.
+        # how do i allow something to target the player character?
         mana_change = -25
         castle_hp = -25
         add_modifier = {
