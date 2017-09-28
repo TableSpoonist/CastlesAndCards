@@ -1,2 +1,2 @@
 # CastlesAndCards
-The cards to win wars.
+Cards of War.
